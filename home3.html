@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    * {
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Arial;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #0b4377;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    font-size: 27px;
+}
+
+.header-content h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 20px;
+    color: #fffafa;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-row {
+    margin: 20px 0;
+}
+
+button {
+    padding: 30px 40px;
+    margin: 20px 60px;
+    background-color: #004f98;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #4a5b6b;
+}
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h2>Welcome For Online Voting</h2>
+            <p>Open CV Facial Recognition Voting System</p>
+        </div>
+        <nav>
+            <a href="#">Login</a>
+            <a href="#">Exit</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="button-container">
+            <div class="button-row">
+                <button onclick="location.href='#'">Register</button>
+                <button onclick="location.href='#'">Vote</button>
+            </div>
+            <div class="button-row">
+                <button onclick="location.href='#'">Facial Recognition</button>
+                <button onclick="location.href='#'">OTP Registration</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

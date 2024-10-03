@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enter OTP</title>
+    <title>OTP</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            font-family: 'Times New Roman', sans-serif;
+            background-color: #dde8f4;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -16,16 +16,16 @@
         .otp {
             background-color: white;
             padding: 20px;
-            border-radius: 8px;
+            border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
         .otp input {
-            width: 100%;
-            padding: 10px;
+            width: 43%;
+            padding: 20px;
             font-size: 16px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+            margin-bottom: 15px;
+            border: 2px solid #80cbeb;
+            border-radius: 30px;
         }
         .otp input[type="submit"] {
             background-color: #3498db;
@@ -42,7 +42,7 @@
     <div class="otp">
         <h2>Enter OTP</h2>
         <form action="/submit-otp">
-            <input type="text" name="otp" placeholder="Enter your OTP" required maxlength="4">
+            <input type="text" name="otp" placeholder="Enter your OTP" required maxlength="6">
             <input type="submit" value="Submit OTP">
         </form>
     </div>
